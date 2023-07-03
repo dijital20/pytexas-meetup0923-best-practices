@@ -1,0 +1,13 @@
+
+[project]
+name = "pytexas-meetup0923-best-practices"
+version = "1.0"
+description = "Talk content for the PyTexas Meetup Sept 2023, \"Best Practices for Writing Code for Other People to Use\""
+authors = [
+    {name = "Josh Schneider", email = "josh.schneider@gmail.com"},
+]
+dependencies = [
+    "mkdocs>=1.4.3",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
