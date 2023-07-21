@@ -1,4 +1,7 @@
-# Design
+# Josh's 3 (Make That 4) User Experience Design Rules
+
+The code you produce is a user interface. The functions, variables, classes, methods, and fields are the controls that 
+your users use to manipulate your product. To that end, the following rules apply...
 
 ## Rule 1: Make it obvious.
 
