@@ -1,5 +1,7 @@
 ---
 marp: true
+footer: #PyTexas Meetup Sept 2023 - Best Practices for Writing Code for Other People to Use
+paginate: true
 ---
 
 # Best Practices for Writing Code for Other People to Use
@@ -9,61 +11,73 @@ marp: true
 [PyTexas Meetup](http://meetup.pytexas.org), September 2023
 
 <!-- _class: invert -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
 
 ---
 
 ## Who are "others"?
 
-- Obviously, people **that are not you**.
-- **You 6 months** from now is different than **you now**.
-
----
+* Obviously, people **that are not you**.
+* **You 6 months** from now is different than **you now**.
 
 ## What do you mean by "use"?
 
-- Installs and includes
-- Maintains and contributes
+* Installs and includes
+* Maintains and contributes
 
 ---
 
 ## Josh's 3 (make that 4) rules for good UX design
-  - Rule 1: Make it **obvious**
-  - Rule 2: Make it **familiar**
-  - Rule 3: Make it **well-documented**
-  - Start at Rule 1, not Rule 3.
+* Rule 1: Make it **obvious**
+* Rule 2: Make it **familiar**
+* Rule 3: Make it **well-documented**
+* Rule 4: Start at Rule 1, not Rule 3.
 
 ---
 
-## SOLID design
-- SOLID principles for classes/objects
-- Avoid classes when you don't need them
-- Naming
-- Tests
+## About Style
+
+<div style="text-align: center; font-size: 125%; margin: 2.5% 5%; padding: 2.5% 5%; font-style: italic; border: 1px dotted black; border-radius: 1em; box-shadow: gray 0 5px 20px;">
+"I don't care what you believe in, just believe in it."
+<br/>-- Shepherd Book, "Serenity"
+</div>
+
+* Document it (Consider a `STYLE.md` file)
+* Apply it consistently
+
+---
+## Design
+
+* Use SOLID principles for classes/objects
+* Avoid classes when you don't need them
+* Use good naming
+  * Names should be descriptive to purpose.
+  * Verb names for functions/methods - *Functions do!*
+  * Noun names for variables/fields - *Variables are!*
 
 ---
 
-## Documentation
+## In-code Documentation
 
-- Type hints
-- Docstrings
-  - Where?
-  - Summary
-  - Input arguments
-  - Output arguments
-  - Doctests?
-  - Notes
+* Use type hints
+* Write docstrings for all modules, classes, functions, and methods.
+  * Summary
+  * Input arguments and Output
+  * Other
 
 ---
 
 ## Line comments
 
-- Add context to the code
-- Add justification to the code
-- Signposts on where to find things
+* Add context to the code
+* Add justification to the code
+* Signposts on where to find things
 
 ---
 
 ## Supplemental Documentation
 
-- Text/Markdown documentation
-- Sample code
+* Text/Markdown documentation
+* Unit tests
+* Sample code
