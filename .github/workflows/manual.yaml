@@ -9,6 +9,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -22,6 +25,9 @@ jobs:
 
       - name: Build site
         run: pdm run mkdocs build
+
+      - name: Export Slides HTML
+        run: npx @marp-team/marp-cli@latest Slides.md -o site/PyTexasMeetup-0923-Slides.html --html true
 
       - name: Zip files
         run: zip -r release.zip site
