@@ -35,10 +35,10 @@ marp: true
 ---
 
 ## SOLID design
-  - SOLID principles for classes/objects
-  - Avoid classes when you don't need them
-  - Naming
-  - Tests
+- SOLID principles for classes/objects
+- Avoid classes when you don't need them
+- Naming
+- Tests
 
 ---
 
