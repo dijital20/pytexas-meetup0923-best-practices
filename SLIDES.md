@@ -68,11 +68,41 @@ paginate: true
 
 ---
 
+## Example Docstring
+
+```python
+def write_results_to_file(results: list[dict[str, str | int]], path: str | Path) -> Path:
+    """Writes the result structure to a file.
+
+    Args:
+        results: Data structure to write as a list of dictionaries.
+        path: Path of the file to write to.
+
+    Returns:
+        Path of the file written.
+
+    Raises:
+        TypeError: If results is not a list of dicts with string keys.
+    """
+    ...
+```
+
+---
+
 ## Line comments
 
-* Add context to the code
-* Add justification to the code
-* Signposts on where to find things
+Add context or justification to the code
+
+```python 
+# For some reason, the doohickey.do_thing function needs the last byte
+# cut off. This is not documented in their libarary.
+```
+
+Signposts on where to find things
+
+```python
+# See DESIGN.md, section "Gnarly Function"
+```
 
 ---
 
@@ -81,3 +111,11 @@ paginate: true
 * Text/Markdown documentation
 * Unit tests
 * Sample code
+
+---
+
+# Thanks!
+
+<!-- _class: invert -->
+<!-- _paginate: false -->
+<!-- _footer: "" -->
