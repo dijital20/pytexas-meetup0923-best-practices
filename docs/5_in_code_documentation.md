@@ -1,4 +1,4 @@
-# Documentation
+# In-Code Documentation
 
 ## Type hints
 
@@ -10,14 +10,10 @@
 
 ### Output arguments
 
-### Doctests?
-
 ### Notes
 
 ## Line comments
 
 ### Context and history
 
-### Signposts
-
-## Supplemental Documentation
+### Signpostsss
