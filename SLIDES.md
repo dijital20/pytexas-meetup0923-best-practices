@@ -8,7 +8,7 @@ paginate: true
 
 **Josh Schneider** · [github/dijital20](https://github.com/dijital20) · [@diji@twitter.com](https://twitter.com/diji) · [@diji@mastodon.social](https://mastodon.social/@diji)
 
-[PyTexas Meetup](http://meetup.pytexas.org), September 2023
+[PyTexas Meetup](http://meetup.pytexas.org), November 2023
 
 <!-- _class: invert -->
 <!-- _paginate: false -->
