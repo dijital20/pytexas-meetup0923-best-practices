@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 footer: #PyTexas Meetup Sept 2023 - Best Practices for Writing Code for Other People to Use
 paginate: true
 ---
@@ -8,7 +8,7 @@ paginate: true
 
 **Josh Schneider** · [github/dijital20](https://github.com/dijital20) · [@diji@twitter.com](https://twitter.com/diji) · [@diji@mastodon.social](https://mastodon.social/@diji)
 
-[PyTexas Meetup](http://meetup.pytexas.org), September 2023
+[PyTexas Meetup](http://meetup.pytexas.org), November 2023
 
 <!-- _class: invert -->
 <!-- _paginate: false -->
@@ -16,15 +16,14 @@ paginate: true
 
 ---
 
-## Who are "others"?
+## What?!?
 
-* Obviously, people **that are not you**.
-* **You 6 months** from now is different than **you now**.
-
-## What do you mean by "use"?
-
-* Installs and includes
-* Maintains and contributes
+* **Who are "others"?**
+  * Obviously, people **that are not you**.
+  * **You 6 months** from now is different than **you now**.
+* **What do you mean by "use"?**
+  * Installs and includes
+  * Maintains and contributes
 
 ---
 
