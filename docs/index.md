@@ -1,6 +1,6 @@
 # Best Practices (on Writing Code for Other People to Use)
 
-Welcome to the [PyTexas Meetup](http://meetup.pytexas.org) for September 2023!
+Welcome to the [PyTexas Meetup](http://meetup.pytexas.org) for November 2023!
 
 **Josh Schneider**
 
