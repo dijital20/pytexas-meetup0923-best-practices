@@ -1,6 +1,6 @@
 ---
-marp: false
-footer: #PyTexas Meetup Sept 2023 - Best Practices for Writing Code for Other People to Use
+marp: true
+footer: #PyTexas Meetup Nov 2023 - Best Practices for Writing Code for Other People to Use
 paginate: true
 ---
 
