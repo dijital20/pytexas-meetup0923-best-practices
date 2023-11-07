@@ -4,6 +4,34 @@ footer: #PyTexas Meetup Nov 2023 - Best Practices for Writing Code for Other Peo
 paginate: true
 ---
 
+<style>
+section {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, rgba(205, 205, 255, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(205, 205, 255, 0.4) 1px, transparent 1px);
+}
+
+section.invert {
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, rgba(30, 30, 90, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 30, 90, 0.4) 1px, transparent 1px);
+}
+
+div.quote_bubble {
+  text-align: center; 
+  font-size: 125%; 
+  margin: 2.5% 5%; 
+  padding: 2.5% 5%; 
+  font-style: italic; 
+  border: 1px dotted black; 
+  border-radius: 1em; 
+  box-shadow: gray 0 5px 20px;
+  background: rgba(255, 255, 255, 0.6);
+}
+</style>
+
 # Best Practices for Writing Code for Other People to Use
 
 **Josh Schneider** · [github/dijital20](https://github.com/dijital20) · [@diji@twitter.com](https://twitter.com/diji) · [@diji@mastodon.social](https://mastodon.social/@diji)
@@ -27,7 +55,7 @@ paginate: true
 
 ---
 
-<div style="text-align: center; font-size: 125%; margin: 2.5% 5%; padding: 2.5% 5%; font-style: italic; border: 1px dotted black; border-radius: 1em; box-shadow: gray 0 5px 20px;">
+<div class="quote_bubble">
 "Always code as if the person maintaining your code will be a violent psychopath who knows where you live."
 <br/>-- Martin Golding
 </div>
@@ -44,7 +72,7 @@ paginate: true
 
 ## About Style
 
-<div style="text-align: center; font-size: 125%; margin: 2.5% 5%; padding: 2.5% 5%; font-style: italic; border: 1px dotted black; border-radius: 1em; box-shadow: gray 0 5px 20px;">
+<div class="quote_bubble">
 "I don't care what you believe in, just believe in it."
 <br/>-- Shepherd Book, "Serenity"
 </div>
