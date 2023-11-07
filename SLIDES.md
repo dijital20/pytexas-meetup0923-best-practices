@@ -27,6 +27,13 @@ paginate: true
 
 ---
 
+<div style="text-align: center; font-size: 125%; margin: 2.5% 5%; padding: 2.5% 5%; font-style: italic; border: 1px dotted black; border-radius: 1em; box-shadow: gray 0 5px 20px;">
+"Always code as if the person maintaining your code will be a violent psychopath who knows where you live."
+<br/>-- Martin Golding
+</div>
+
+---
+
 ## Josh's 3 (make that 4) rules for good UX design
 * Rule 1: Make it **obvious**
 * Rule 2: Make it **familiar**
